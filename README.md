@@ -1,2 +1,2 @@
 # Assignment2
-Deployed on [Github Pages](https://code2me.github.io/Assignment2)
+Deployed on [Netlify](https://distracted-colden-818f83.netlify.app)
