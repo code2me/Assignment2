@@ -31,6 +31,11 @@ let list = [{
 
 //----------------------Row 1, Row 2, Row 3, Row 4----------------------
 for (let i = 0; i < 4; i++) {
+    if(i == 2) {
+        let h22 = document.createElement('h2');
+        h22.innerHTML = "Student TODOs";
+        root.append(h22);
+    }
     let h3 = document.createElement('h3');
     h3.innerHTML = `Row ${i+1}`;
     root.append(h3);
@@ -159,7 +164,7 @@ color8.style.width = "100%";
 
 for (let i = 0; i < 5; i++) {
     let innerGreen = document.createElement('div');
-    innerGreen.style.backgroundColor = "yellow";
+    innerGreen.style.backgroundColor = "orange";
     innerGreen.style.height = "40px";
     innerGreen.style.width = "5%";
     color8.append(innerGreen);
@@ -183,7 +188,7 @@ row9Block.style.width = "100%";
 row9Block.style.display = "flex";
 
 let color9 = document.createElement('div');
-color9.style.backgroundColor = "yellow";
+color9.style.backgroundColor = "orange";
 color9.style.height = "40px";
 color9.style.width = "100%";
 
