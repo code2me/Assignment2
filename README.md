@@ -1,2 +1,2 @@
 # Assignment2
-Deployed on [Netlify](https://distracted-colden-818f83.netlify.app)
+Deployed on [Netlify](https://nav-assign2.netlify.app/)
