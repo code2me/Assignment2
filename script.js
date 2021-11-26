@@ -73,7 +73,7 @@ color5.style.width = "100%";
 let innerRed = document.createElement('div');
 innerRed.style.backgroundColor = "red";
 innerRed.style.height = "30px";
-innerRed.style.width = "4%";
+innerRed.style.width = "30px";
 
 color5.style.display = "flex";
 color5.style.justifyContent = "center";
